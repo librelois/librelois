@@ -4,7 +4,7 @@ I am a full stack developer with a preference for backend.
 
 ## Languages
 
-My favorite language is Rust, I've been using it daily for 4 years and as soon as I can I do everything in Rust, including the front end.
+My favorite language is **Rust**, I've been using it daily for 4 years and as soon as I can I do everything in **Rust**, including the front end.
 
 I also have a good grasp of :
 
