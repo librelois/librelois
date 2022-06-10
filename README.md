@@ -4,7 +4,7 @@ I am a full stack developer with a preference for backend.
 
 ## Languages
 
-My favorite language is **Rust**, I've been using it daily for 4 years and as soon as I can I do everything in **Rust**, including the front end.
+My favorite language is **Rust**, I've been using it daily for 5 years and as soon as I can I do everything in **Rust**, including the front end.
 
 I also have a good grasp of :
 
@@ -20,7 +20,7 @@ I'm mainly working on [Duniter]: a blockchain-based P2P crypto-currency engine w
 
 Most of my contributions are on the self-hosted gitlab: [git.duniter.org](https://git.duniter.org)
 
-In particular, I'm working on the gradual migration of [Duniter] from Typescript to Rust via [Neon] as well as the rewriting of the Duniter API in GraphQL with [async_graphql].
+In particular, I'm working on the migration of [Duniter] to [subtrate]: see [Duniter-v2s].
 
 ## Other Contributions
 
@@ -34,10 +34,11 @@ In particular, I'm working on the gradual migration of [Duniter] from Typescript
 
 [async_graphql]: https://github.com/async-graphql/async-graphql
 [async_lock]: https://github.com/smol-rs/async-lock
-[Duniter]: https://git.duniter.org/nodes/typescript/duniter
+[Duniter]: https://github.com/duniter/duniter
+[Duniter-v2s]: https://github.com/duniter/duniter-v2s
 [fast-threadpool]: https://github.com/librelois/fast-threadpool
 [pkstl]: https://github.com/librelois/pkstl
-[Neon]: https://github.com/neon-bindings/neon
+[subtrate]: https://github.com/paritytech/subtrate
 
 <!--
 **librelois/librelois** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
