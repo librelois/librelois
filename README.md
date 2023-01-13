@@ -28,7 +28,7 @@ From 2017 to 2021, I'm worked mainly on [Duniter]: a blockchain-based P2P crypto
 
 Most of my contributions are on the self-hosted gitlab: [git.duniter.org](https://git.duniter.org).
 
-In particular, I'm worked on the migration of [Duniter] to [Subtrate]: see [Duniter-v2s].
+In particular, I'm worked on the migration of [Duniter] to [Substrate]: see [Duniter-v2s].
 
 ## Other Contributions
 
@@ -38,7 +38,6 @@ In particular, I'm worked on the migration of [Duniter] to [Subtrate]: see [Duni
 ## 📫 How to reach me:
 
 * Mail: `c` at `elo` dot `tf`
-* I am present on the free and decentralized messaging system XMPP: [elois@duniter.org](xmpp:elois@duniter.org?join)
 
 [async_graphql]: https://github.com/async-graphql/async-graphql
 [async_lock]: https://github.com/smol-rs/async-lock
@@ -49,7 +48,7 @@ In particular, I'm worked on the migration of [Duniter] to [Subtrate]: see [Duni
 [Frontier]: https://github.com/paritytech/frontier
 [Moonbeam]: https://github.com/PureStake/moonbeam
 [pkstl]: https://github.com/librelois/pkstl
-[Subtrate]: https://github.com/paritytech/subtrate
+[Substrate]: https://github.com/paritytech/substrate
 
 <!--
 **librelois/librelois** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
