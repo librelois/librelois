@@ -1,66 +1,114 @@
-# Éloïs SANCHEZ
+# Eloïs SANCHEZ
 
-I am a full stack developer with a preference for backend.
+Principal Blockchain Engineer & Protocol Architect.
 
-## Languages
+I work on Rust-based blockchain infrastructure, EVM execution layers, protocol design, and distributed systems.
 
-My favorite language is **Rust**, I've been using it daily for 6 years and as soon as I can I do everything in **Rust**, including the front end.
+## Current Work
 
-I also have a good grasp of :
+I am currently working at [Moonsong Labs], contributing to the core protocol of [Moonbeam], an Ethereum-compatible smart contract parachain on Polkadot.
 
-* Typescript (with Angular and nodeJs)
-* Dart (with Flutter)
-* Java (with Spring boot)
+My work includes:
 
-I also have some knowledge in bash and python, mainly for scripting deployment processes.
+- Moonbeam core protocol architecture
+- EVM execution-layer internals
+- Gas metering and resource accounting
+- Geth-compatible tracing APIs
+- Runtime and node-level protocol development
+- Protocol design for Moonbeam and Tanssi
+- Upstream contributions to the Polkadot ecosystem
 
-## Main project
+I am also a maintainer of [Polkadot Frontier], the EVM compatibility layer for Polkadot and Substrate. Frontier provides the EVM backbone for Polkadot-based chains and enables Ethereum-compatible execution, RPCs, precompiles, and tooling on top of the Polkadot SDK.
 
-Since 2021, I'm mainly working on [Moonbeam]: An Ethereum-compatible smart contract parachain on Polkadot.
+## Areas of Expertise
 
-In particular, I'm working on the development and maintenance of the blockchain protocol itself (in Rust). I am also the maintainer of the github actions of the project.
+- **Rust protocol development**
+- **Polkadot SDK / Substrate**
+- **EVM execution layers**
+- **Frontier / Ethereum compatibility**
+- **Precompiles**
+- **Gas metering and resource accounting**
+- **Geth-compatible tracing**
+- **Distributed systems**
+- **Decentralized storage protocols**
+- **Merkle proofs and on-chain verification**
+- **Protocol architecture and incentives**
+- **Technical leadership and mentoring**
 
-For the needs of Moonbeam, I am regularly lead to contribute to [Substrate], [Cumulus] and [Frontier].
+## Selected Protocol Work
 
-## Past project
+### Moonbeam
 
-From 2017 to 2021, I'm worked mainly on [Duniter]: a blockchain-based P2P crypto-currency engine with Web of Trust.
+Since 2021, I have been working on [Moonbeam]'s core protocol and EVM compatibility layer.
 
-Most of my contributions are on the self-hosted gitlab: [git.duniter.org](https://git.duniter.org).
+Notable work includes:
 
-In particular, I'm worked on the migration of [Duniter] to [Substrate]: see [Duniter-v2s].
+- Redesigning Moonbeam's EVM gasometer into a multi-dimensional model accounting for both execution cost and proof-size cost.
+- Leading the implementation of full Geth-compatible EVM tracing, including `debug_*` and `trace_*` RPC methods.
+- Contributing to protocol architecture, runtime design, precompiles, and node internals.
+- Acting as a technical point of contact for core protocol matters.
+- Mentoring and coaching engineers working on protocol-level components.
 
-## Other Contributions
+### Tanssi
 
-* I contributed to the [async_lock] crate.
-* I am the creator of the [fast-threadpool] and [pkstl] crates.
+I contributed to the [Tanssi] core protocol, including the design of the shared collators reward system and related protocol-level incentives.
 
-## 📫 How to reach me:
+### StorageHub
 
-* Mail: `c` at `elo` dot `tf`
+I worked on protocol design and research for StorageHub, a Web3 Foundation grant project focused on decentralized storage verification.
 
-[async_graphql]: https://github.com/async-graphql/async-graphql
-[async_lock]: https://github.com/smol-rs/async-lock
-[Cumulus]: https://github.com/paritytech/cumulus
+The work included designing an on-chain storage proof verification mechanism using Merkle Forest Trees, with the goal of enabling scalable verifiable storage while minimizing persistent on-chain state.
+
+## Open Source
+
+Most of my work is in Rust and blockchain infrastructure.
+
+I contribute to:
+
+- [Polkadot Frontier]
+- [Moonbeam]
+- [Polkadot SDK]
+- [Tanssi]
+
+I previously worked on [Duniter], a blockchain-based P2P cryptocurrency engine with a Web of Trust, including its migration toward Substrate-based architecture through [Duniter-v2s].
+
+Most of my historical Duniter contributions are hosted on [git.duniter.org].
+
+## Earlier Projects
+
+I created and maintain a few Rust crates, including:
+
+- [fast-threadpool]
+- [pkstl]
+
+I have also contributed to ecosystem crates such as [async-lock].
+
+## Languages & Tools
+
+- Rust
+- TypeScript / Node.js
+- Java
+- SQL
+- WASM
+- Linux
+- Docker
+- GitLab CI/CD
+- GitHub Actions
+
+## Contact
+
+- Mail: `c` at `elo` dot `tf`
+- LinkedIn: [linkedin.com/in/librelois]
+
+[Moonsong Labs]: https://moonsonglabs.com/
+[Moonbeam]: https://github.com/moonbeam-foundation/moonbeam
+[Polkadot Frontier]: https://github.com/polkadot-evm/frontier
+[Polkadot SDK]: https://github.com/paritytech/polkadot-sdk
+[Tanssi]: https://github.com/moondance-labs/tanssi
 [Duniter]: https://github.com/duniter/duniter
 [Duniter-v2s]: https://github.com/duniter/duniter-v2s
-[fast-threadpool]: https://github.com/librelois/fast-threadpool
-[Frontier]: https://github.com/paritytech/frontier
-[Moonbeam]: https://github.com/PureStake/moonbeam
+[git.duniter.org]: https://git.duniter.org
+[fast-threadpool]: https://github.com/librelois/fast-threadpool
 [pkstl]: https://github.com/librelois/pkstl
-[Substrate]: https://github.com/paritytech/substrate
-
-<!--
-**librelois/librelois** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[async-lock]: https://github.com/smol-rs/async-lock
+[linkedin.com/in/librelois]: https://www.linkedin.com/in/librelois/
